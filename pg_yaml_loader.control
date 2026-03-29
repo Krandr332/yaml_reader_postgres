@@ -1,0 +1,6 @@
+# pg_yaml_loader extension
+comment = 'Extension for parsing YAML files directly into PostgreSQL sets'
+default_version = '1.0'
+module_pathname = '$libdir/pg_yaml_loader'
+relocatable = true
+requires = 'plpython3u'
